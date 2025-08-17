@@ -44,8 +44,18 @@ A customizable input component with different states.
 
 ## 📖 Storybook Documentation
 
-All the components are documented in **Storybook** with examples of each variation.  
-Run Storybook locally to explore them interactively.
+### DataTable
+- Default
+- Loading
+- Empty
+- Selectable
+
+### InputField
+- Default
+- Invalid
+- Disabled
+- Password
+
 
 ---
 
