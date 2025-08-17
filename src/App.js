@@ -1,5 +1,6 @@
 // App.js
 import './App.css';
+import './index.css';
 import InputField from './components/InputField/InputField';
 import DataTable from './components/DataTable/DataTable';
 
