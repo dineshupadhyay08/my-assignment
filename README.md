@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# 📘 My Assignment – React Components with Storybook
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Project Overview
 
-## Available Scripts
+This project is built as part of an assignment focused on **UI Components development** using **React, JavaScript, TailwindCSS, and Storybook**.  
+The goal was to create two reusable components and document them properly in Storybook with different variations.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js**  
+- **JavaScript (ES6+)**  
+- **TailwindCSS**  
+- **Storybook**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📦 Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1️⃣ DataTable
 
-### `npm run build`
+A reusable table component with multiple states.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Variants:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ✅ Default – Standard table with rows and columns  
+- ⏳ Loading – Displays a loading state while data is fetching  
+- 🚫 Empty – Displays an empty state message when no data is available  
+- 📝 Selectable – Allows selecting multiple rows
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2️⃣ InputField
 
-### `npm run eject`
+A customizable input component with different states.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Variants:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ✅ Default – Standard text input  
+- ❌ Invalid – Input with error validation state  
+- 🚫 Disabled – Input field disabled for user interaction  
+- 🔒 Password Field – Input field for password type
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📖 Storybook Documentation
 
-## Learn More
+All the components are documented in **Storybook** with examples of each variation.  
+Run Storybook locally to explore them interactively.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ▶️ Getting Started
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/my-assignment.git
+cd my-assignment
